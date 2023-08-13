@@ -1,0 +1,43 @@
+.header {
+  background-color: #dbeafe;
+  height: 100px;
+  padding: 10px;
+}
+
+header div img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+header div {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 1.5%;
+  align-items: center;
+}
+
+.title {
+  font-family: Bree Serif;
+  color: #0f172a;
+  margin-left: 5px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+/* .header {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10%;
+  background-color: #dbeafe;
+}
+
+.logo-title {
+  display: flex;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  letter-spacing: 1.1;
+} */

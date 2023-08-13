@@ -1,0 +1,139 @@
+.side-button img {
+  height: 12px;
+  margin: 0 9px;
+}
+
+.side-button {
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #dbeafe;
+  border-radius: 5px;
+  font-family: Bree Serif;
+  height: 40px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 20px;
+}
+
+.container {
+  width: 30%;
+  margin-right: 0px;
+}
+
+.slides-container {
+  list-style: none;
+}
+
+.slide-show {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 70%;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+}
+
+.slide-display-head {
+  font-size: 64px;
+  color: #0967d2;
+  font-family: Bree Serif;
+}
+
+.slide-display-para {
+  font-size: 60px;
+  color: #0f172a;
+  font-family: Bree Serif;
+}
+
+@media screen and (max-width: 972px) {
+  .slide-display-head {
+    font-size: 32px;
+    color: #0967d2;
+    font-family: Bree Serif;
+  }
+
+  .slide-display-para {
+    font-size: 28px;
+    color: #0f172a;
+    font-family: Bree Serif;
+  }
+}
+
+/* .input {
+  border: 0px solid #0f172a;
+  height: 35px;
+  padding: 5px;
+  font-family: Bree Serif;
+  color: #0f172a;
+  width: 300px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 8px;
+} */
+
+@media screen and (max-width: 972px) {
+  .slide-show {
+    height: 400px;
+    width: 600px;
+  }
+
+  .container {
+    width: 400px;
+  }
+}
+
+.slide-display-head {
+  font-size: 64px;
+  color: #0967d2;
+  font-family: Bree Serif;
+}
+
+.slide-display-para {
+  font-size: 60px;
+  color: #0f172a;
+  font-family: Bree Serif;
+}
+
+@media screen and (max-width: 972px) {
+  .slide-display-head {
+    font-size: 32px;
+    color: #0967d2;
+    font-family: Bree Serif;
+  }
+
+  .slide-display-para {
+    font-size: 28px;
+    color: #0f172a;
+    font-family: Bree Serif;
+  }
+}
+
+.input {
+  border: none;
+  height: 90px;
+  padding: 15px;
+  font-family: Bree Serif;
+  font-size: 60px;
+  color: #940712;
+  width: 600px;
+  margin-top: 15px;
+  text-align: center;
+  outline: none;
+}
+
+.input:active {
+  border: none;
+}
